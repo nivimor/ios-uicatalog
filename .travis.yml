@@ -8,5 +8,5 @@ script:
   - rm -rf build
   - npm install
   - ls -R .
-  - xcodebuild -target UICatalog -configuration Debug -destination 'platform=iOS, OS=9.1' CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+  - xcodebuild -target UICatalog -configuration Debug -destination 'platform=iOS,OS=9.1' CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
 
