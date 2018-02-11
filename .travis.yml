@@ -5,7 +5,6 @@ matrix:
   include:
     - osx_image: xcode9
 script:
-  - echo $PWD
   - rm -rf build
   - npm install
   - ls -R .
